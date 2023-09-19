@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home | Thinking Outside the Box</title>
+    [11:54 a.m.] John Framingham
+
+    <!-- 
+    META NAME ROBOTS
+    <meta name="robots" content=" <value> ">
+    • If there is no robots <META> tag, the default is "INDEX,FOLLOW"
+    
+    An explanation of all the different values you can use in the robots meta tags:
+    
+    • index
+    Allow search engines robots to index the page, you don’t have to add this to your pages, as it’s the default.
+    
+    • Noindex
+    Disallow search engines from showing this page in their results.
+    
+    • Nofollow
+    Tells the search engines robots to not follow any links on the page at all.
+    
+    • none
+    This is a shortcut for noindex,nofollow, or basically saying to search engines: don’t do anything with this page at all.
+    
+    • follow
+    Tells the search engines robots to follow the links on the page, whether it can index it or not. -->
+
+    <meta name="robots" content="noindex, nofollow">
+    
+    <meta name="description" content="We are the box model and css experts. Everything you need to know about padding, border, margin and floats">
+    <meta name="keywords" content="box model, float, css, padding, border, margin">
+    <meta name="author" content="John">
+    <!-- We're bringing in some fonts from Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Faustina:wght@300&family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- We're including a link to our CSS stylesheet -->
+    <!-- It's important to link to our CSS AFTER linking to our fonts from Google -->
+</head>
+<body>
+    <header>
+        <h1>Thinking Outside the Box</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <aside class="aside">
+            <h3>Aside content here, we'll practicing with the box model</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id turpis magna. Donec iaculis mi eu convallis hendrerit. Proin sit amet fermentum lacus, hendrerit scelerisque mi. Morbi auctor tempus sapien id bibendum. Nunc non ante nec ligula finibus consectetur in nec lacus. Sed a mauris magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla non maximus ex. Ut faucibus auctor urna a interdum. Mauris imperdiet auctor aliquam. Aenean lorem ante, eleifend sed tempor vel, molestie varius libero.</p>  
+        </aside>
+        <section class="section">
+            <h2>Section heading</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id turpis magna. Donec iaculis mi eu convallis hendrerit. Proin sit amet fermentum lacus, hendrerit scelerisque mi. Morbi auctor tempus sapien id bibendum. Nunc non ante nec ligula finibus consectetur in nec lacus. Sed a mauris magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla non maximus ex. Ut faucibus auctor urna a interdum. Mauris imperdiet auctor aliquam. Aenean lorem ante, eleifend sed tempor vel, molestie varius libero.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id turpis magna. Donec iaculis mi eu convallis hendrerit. Proin sit amet fermentum lacus, hendrerit scelerisque mi. Morbi auctor tempus sapien id bibendum. Nunc non ante nec ligula finibus consectetur in nec lacus. Sed a mauris magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla non maximus ex. Ut faucibus auctor urna a interdum. Mauris imperdiet auctor aliquam. Aenean lorem ante, eleifend sed tempor vel, molestie varius libero.</p>
+        </section>
+    </div>
+    <footer class="footer">
+        <small>&copy;Copyright Box Model 2023</small>
+    </footer>
+</body>
+
+</html>
